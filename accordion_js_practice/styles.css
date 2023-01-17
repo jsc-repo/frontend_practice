@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.accordion:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.content {
+    margin-top: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+}

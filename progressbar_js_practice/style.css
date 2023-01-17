@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.progressContainer {
+    background-color: bisque;
+    width: 500px;
+    height: 50px;
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 100%;
+    background-color: slateblue;
+    transition: 1s ease 0.2s ;
+}
