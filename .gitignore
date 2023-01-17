@@ -89,3 +89,12 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+# echo "# frontend_practice" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/choi0617/frontend_practice.git
+# git push -u origin main
